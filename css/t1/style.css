@@ -1,0 +1,114 @@
+/**
+ * CSS Document
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	list-style: none;
+}
+
+html {
+	background: #42B0DC url(images/html-bg.gif) repeat-x;
+}
+
+body {
+	background: url(images/main-bg.jpg) center top no-repeat;
+}
+
+a {
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ccc;
+}
+
+a:hover {
+	color: #fff;
+}
+
+.wrap {
+	width: 720px;
+	margin: 0 auto;
+	padding-top: 20px;
+	font-family: Verdana;
+}
+
+header h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+header p {
+	color: #fff;
+	text-align: justify;
+}
+
+h2 {
+	font-size: 14px;
+	color: #fff;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+figure {
+	float: left;
+	margin: 0 4px 4px 0;
+}
+
+figure img {
+	border: 2px solid #ccc;
+}
+
+.boxes {
+	clear: both;
+	min-height: 300px;
+}
+
+.box {
+	margin-bottom: 20px;
+}
+
+.column {
+	float: left;
+	margin-right: 50px;
+}
+
+.c4 {
+	margin-right: 0;
+}
+
+footer {
+	clear: both;
+}
+
+.social-network {
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+}
+
+li.linkedin {
+	background-image: url(images/linkedin.png);
+}
+
+li.facebook {
+	background-image: url(images/facebook.png);
+}
+
+li.twitter {
+	background-image: url(images/twitter.png);
+}
+
+li.delicious {
+	background-image: url(images/delicious.png);
+}
+
+li.formspring {
+	background-image: url(images/formspring.png);
+}
+
